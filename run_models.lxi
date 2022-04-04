@@ -1,0 +1,427 @@
+B 3 C o m p i l a t i o n
+B 1715 Include File Summary
+B 1744 E x e c u t i o n
+I 1744 zconn
+I 1752 zconn_hybrid2
+I 1760 zconn_hybrid3
+B 1771 Equation Listing    SOLVE unconstrained Using NLP From line 491
+D 1774 tot_surplus
+D 1781 gcon_up
+D 1796 gcon_lo
+D 1811 ccon_up
+D 1826 ccon_lo
+D 1841 gen_redisp_down
+D 1848 gen_redisp_up
+D 1855 con_redisp_down
+D 1864 con_redisp_up
+D 1873 net_inj
+D 1888 sum_NI
+D 1893 ptdf_flow
+B 1915 Column Listing      SOLVE unconstrained Using NLP From line 491
+E 1918 qg
+E 1961 qug
+E 2006 qdg
+E 2051 qc
+E 2093 quc
+E 2138 qdc
+E 2183 q
+E 2261 f
+E 2300 surplus
+B 2308 Model Statistics    SOLVE unconstrained Using NLP From line 491
+B 2326 Solution Report     SOLVE unconstrained Using NLP From line 491
+B 2364 Equation Listing    SOLVE redispatch Using NLP From line 561
+D 2367 tot_surplus
+D 2376 gcon_up
+D 2391 gcon_lo
+D 2406 ccon_up
+D 2421 ccon_lo
+D 2436 gen_redisp_down
+D 2443 gen_redisp_up
+D 2450 con_redisp_down
+D 2459 con_redisp_up
+D 2468 net_inj
+D 2483 sum_NI
+D 2488 ptdf_flow
+D 2509 fwd_lconstr
+D 2530 bwd_lconstr
+B 2552 Column Listing      SOLVE redispatch Using NLP From line 561
+E 2555 qg
+E 2598 qug
+E 2643 qdg
+E 2688 qc
+E 2730 quc
+E 2775 qdc
+E 2820 q
+E 2898 f
+E 2955 surplus
+B 2963 Model Statistics    SOLVE redispatch Using NLP From line 561
+B 2981 Solution Report     SOLVE redispatch Using NLP From line 561
+B 3019 Equation Listing    SOLVE zonal Using NLP From line 645
+D 3022 tot_surplus
+D 3031 gcon_up
+D 3046 gcon_lo
+D 3061 ccon_up
+D 3076 ccon_lo
+D 3091 net_inj
+D 3106 sum_NI
+D 3111 zflow
+D 3118 fwd_zconstr
+D 3123 bwd_zconstr
+B 3129 Column Listing      SOLVE zonal Using NLP From line 645
+E 3132 qg
+E 3175 qug
+E 3218 qdg
+E 3261 qc
+E 3303 quc
+E 3345 qdc
+E 3387 q
+E 3426 f
+E 3450 surplus
+B 3458 Model Statistics    SOLVE zonal Using NLP From line 645
+B 3476 Solution Report     SOLVE zonal Using NLP From line 645
+B 3515 Equation Listing    SOLVE redispatch Using NLP From line 723
+D 3518 tot_surplus
+D 3527 gcon_up
+D 3542 gcon_lo
+D 3557 ccon_up
+D 3572 ccon_lo
+D 3587 gen_redisp_down
+D 3594 gen_redisp_up
+D 3601 con_redisp_down
+D 3610 con_redisp_up
+D 3619 net_inj
+D 3634 sum_NI
+D 3639 ptdf_flow
+D 3660 fwd_lconstr
+D 3681 bwd_lconstr
+B 3703 Column Listing      SOLVE redispatch Using NLP From line 723
+E 3706 qg
+E 3749 qug
+E 3794 qdg
+E 3839 qc
+E 3881 quc
+E 3926 qdc
+E 3971 q
+E 4049 f
+E 4106 surplus
+B 4114 Model Statistics    SOLVE redispatch Using NLP From line 723
+B 4132 Solution Report     SOLVE redispatch Using NLP From line 723
+B 4171 Equation Listing    SOLVE zonal_sim1 Using NLP From line 799
+D 4174 tot_surplus
+D 4183 gcon_up
+D 4198 gcon_lo
+D 4213 ccon_up
+D 4228 ccon_lo
+D 4243 net_inj
+D 4258 sum_NI
+D 4263 zflow
+D 4270 ptdf_flow_hybrid
+D 4279 fwd_zconstr
+D 4284 bwd_zconstr
+D 4289 fwd_lconstr_zonalsim
+D 4298 bwd_lconstr_zonalsim
+B 4308 Column Listing      SOLVE zonal_sim1 Using NLP From line 799
+E 4311 qg
+E 4354 qug
+E 4397 qdg
+E 4440 qc
+E 4482 quc
+E 4524 qdc
+E 4566 q
+E 4614 f
+E 4665 surplus
+B 4673 Model Statistics    SOLVE zonal_sim1 Using NLP From line 799
+B 4691 Solution Report     SOLVE zonal_sim1 Using NLP From line 799
+B 4729 Equation Listing    SOLVE redispatch Using NLP From line 877
+D 4732 tot_surplus
+D 4741 gcon_up
+D 4756 gcon_lo
+D 4771 ccon_up
+D 4786 ccon_lo
+D 4801 gen_redisp_down
+D 4808 gen_redisp_up
+D 4815 con_redisp_down
+D 4824 con_redisp_up
+D 4833 net_inj
+D 4848 sum_NI
+D 4853 ptdf_flow
+D 4874 fwd_lconstr
+D 4895 bwd_lconstr
+B 4917 Column Listing      SOLVE redispatch Using NLP From line 877
+E 4920 qg
+E 4963 qug
+E 5008 qdg
+E 5053 qc
+E 5095 quc
+E 5140 qdc
+E 5185 q
+E 5263 f
+E 5320 surplus
+B 5328 Model Statistics    SOLVE redispatch Using NLP From line 877
+B 5346 Solution Report     SOLVE redispatch Using NLP From line 877
+B 5384 E x e c u t i o n
+I 5384 zcap_hybrid
+B 5404 Equation Listing    SOLVE zonal_sim2 Using NLP From line 953
+D 5407 tot_surplus
+D 5416 gcon_up
+D 5431 gcon_lo
+D 5446 ccon_up
+D 5461 ccon_lo
+D 5476 net_inj
+D 5491 sum_NI
+D 5496 zflow
+D 5503 ptdf_flow_hybrid
+D 5512 fwd_zconstr_hybrid_2
+D 5519 bwd_zconstr_hybrid_2
+D 5526 fwd_lconstr_zonalsim
+D 5535 bwd_lconstr_zonalsim
+B 5545 Column Listing      SOLVE zonal_sim2 Using NLP From line 953
+E 5548 qg
+E 5591 qug
+E 5634 qdg
+E 5677 qc
+E 5719 quc
+E 5761 qdc
+E 5803 q
+E 5851 f
+E 5902 surplus
+B 5910 Model Statistics    SOLVE zonal_sim2 Using NLP From line 953
+B 5928 Solution Report     SOLVE zonal_sim2 Using NLP From line 953
+B 5967 Equation Listing    SOLVE redispatch Using NLP From line 1031
+D 5970 tot_surplus
+D 5979 gcon_up
+D 5994 gcon_lo
+D 6009 ccon_up
+D 6024 ccon_lo
+D 6039 gen_redisp_down
+D 6046 gen_redisp_up
+D 6053 con_redisp_down
+D 6062 con_redisp_up
+D 6071 net_inj
+D 6086 sum_NI
+D 6091 ptdf_flow
+D 6112 fwd_lconstr
+D 6133 bwd_lconstr
+B 6155 Column Listing      SOLVE redispatch Using NLP From line 1031
+E 6158 qg
+E 6201 qug
+E 6246 qdg
+E 6291 qc
+E 6333 quc
+E 6378 qdc
+E 6423 q
+E 6501 f
+E 6558 surplus
+B 6566 Model Statistics    SOLVE redispatch Using NLP From line 1031
+B 6584 Solution Report     SOLVE redispatch Using NLP From line 1031
+B 6622 Equation Listing    SOLVE zonal_sim3 Using NLP From line 1106
+D 6625 tot_surplus
+D 6634 gcon_up
+D 6649 gcon_lo
+D 6664 ccon_up
+D 6679 ccon_lo
+D 6694 net_inj
+D 6709 sum_NI
+D 6714 zflow
+D 6721 ptdf_flow_hybrid
+D 6730 fwd_zconstr_hybrid_3
+D 6739 bwd_zconstr_hybrid_3
+D 6748 fwd_lconstr_zonalsim
+D 6757 bwd_lconstr_zonalsim
+B 6767 Column Listing      SOLVE zonal_sim3 Using NLP From line 1106
+E 6770 qg
+E 6813 qug
+E 6856 qdg
+E 6899 qc
+E 6941 quc
+E 6983 qdc
+E 7025 q
+E 7073 f
+E 7124 surplus
+B 7132 Model Statistics    SOLVE zonal_sim3 Using NLP From line 1106
+B 7150 Solution Report     SOLVE zonal_sim3 Using NLP From line 1106
+B 7189 Equation Listing    SOLVE redispatch Using NLP From line 1184
+D 7192 tot_surplus
+D 7201 gcon_up
+D 7216 gcon_lo
+D 7231 ccon_up
+D 7246 ccon_lo
+D 7261 gen_redisp_down
+D 7268 gen_redisp_up
+D 7275 con_redisp_down
+D 7284 con_redisp_up
+D 7293 net_inj
+D 7308 sum_NI
+D 7313 ptdf_flow
+D 7334 fwd_lconstr
+D 7355 bwd_lconstr
+B 7377 Column Listing      SOLVE redispatch Using NLP From line 1184
+E 7380 qg
+E 7423 qug
+E 7468 qdg
+E 7513 qc
+E 7555 quc
+E 7600 qdc
+E 7645 q
+E 7723 f
+E 7780 surplus
+B 7788 Model Statistics    SOLVE redispatch Using NLP From line 1184
+B 7806 Solution Report     SOLVE redispatch Using NLP From line 1184
+B 7844 Equation Listing    SOLVE zonal_seq1 Using NLP From line 1261
+D 7847 tot_surplus_seq
+D 7854 gcon_up_seq
+D 7863 gcon_lo_seq
+D 7872 ccon_up_seq
+D 7881 ccon_lo_seq
+D 7890 net_inj_seq
+D 7899 ptdf_flow_hybrid
+D 7908 aggr_net_export
+D 7913 sum_NI_seq
+D 7918 fwd_lconstr_zonalsim
+D 7927 bwd_lconstr_zonalsim
+B 7937 Column Listing      SOLVE zonal_seq1 Using NLP From line 1261
+E 7940 qg
+E 7963 qug
+E 7986 qdg
+E 8009 qc
+E 8032 quc
+E 8055 qdc
+E 8078 q
+E 8105 f
+E 8147 surplus
+B 8155 Model Statistics    SOLVE zonal_seq1 Using NLP From line 1261
+B 8173 Solution Report     SOLVE zonal_seq1 Using NLP From line 1261
+B 8211 Equation Listing    SOLVE redispatch Using NLP From line 1339
+D 8214 tot_surplus
+D 8223 gcon_up
+D 8238 gcon_lo
+D 8253 ccon_up
+D 8268 ccon_lo
+D 8283 gen_redisp_down
+D 8290 gen_redisp_up
+D 8297 con_redisp_down
+D 8306 con_redisp_up
+D 8315 net_inj
+D 8330 sum_NI
+D 8335 ptdf_flow
+D 8356 fwd_lconstr
+D 8377 bwd_lconstr
+B 8399 Column Listing      SOLVE redispatch Using NLP From line 1339
+E 8402 qg
+E 8445 qug
+E 8490 qdg
+E 8535 qc
+E 8577 quc
+E 8622 qdc
+E 8667 q
+E 8745 f
+E 8802 surplus
+B 8810 Model Statistics    SOLVE redispatch Using NLP From line 1339
+B 8828 Solution Report     SOLVE redispatch Using NLP From line 1339
+B 8866 Equation Listing    SOLVE zonal_seq2 Using NLP From line 1414
+D 8869 tot_surplus_seq
+D 8876 gcon_up_seq
+D 8885 gcon_lo_seq
+D 8894 ccon_up_seq
+D 8903 ccon_lo_seq
+D 8912 net_inj_seq
+D 8921 ptdf_flow_hybrid
+D 8930 aggr_net_export
+D 8935 sum_NI_seq
+D 8940 fwd_zconstr_hybrid_2
+D 8947 bwd_zconstr_hybrid_2
+D 8954 fwd_lconstr_zonalsim
+D 8963 bwd_lconstr_zonalsim
+B 8973 Column Listing      SOLVE zonal_seq2 Using NLP From line 1414
+E 8976 qg
+E 8999 qug
+E 9022 qdg
+E 9045 qc
+E 9068 quc
+E 9091 qdc
+E 9114 q
+E 9141 f
+E 9189 surplus
+B 9197 Model Statistics    SOLVE zonal_seq2 Using NLP From line 1414
+B 9215 Solution Report     SOLVE zonal_seq2 Using NLP From line 1414
+B 9253 Equation Listing    SOLVE redispatch Using NLP From line 1492
+D 9256 tot_surplus
+D 9265 gcon_up
+D 9280 gcon_lo
+D 9295 ccon_up
+D 9310 ccon_lo
+D 9325 gen_redisp_down
+D 9332 gen_redisp_up
+D 9339 con_redisp_down
+D 9348 con_redisp_up
+D 9357 net_inj
+D 9372 sum_NI
+D 9377 ptdf_flow
+D 9398 fwd_lconstr
+D 9419 bwd_lconstr
+B 9441 Column Listing      SOLVE redispatch Using NLP From line 1492
+E 9444 qg
+E 9487 qug
+E 9532 qdg
+E 9577 qc
+E 9619 quc
+E 9664 qdc
+E 9709 q
+E 9787 f
+E 9844 surplus
+B 9852 Model Statistics    SOLVE redispatch Using NLP From line 1492
+B 9870 Solution Report     SOLVE redispatch Using NLP From line 1492
+B 9909 Equation Listing    SOLVE zonal_seq3 Using NLP From line 1567
+D 9912 tot_surplus_seq
+D 9919 gcon_up_seq
+D 9928 gcon_lo_seq
+D 9937 ccon_up_seq
+D 9946 ccon_lo_seq
+D 9955 net_inj_seq
+D 9964 ptdf_flow_hybrid
+D 9973 aggr_net_export
+D 9978 sum_NI_seq
+D 9983 fwd_zconstr_hybrid_3
+D 9992 bwd_zconstr_hybrid_3
+D 10001 fwd_lconstr_zonalsim
+D 10010 bwd_lconstr_zonalsim
+B 10020 Column Listing      SOLVE zonal_seq3 Using NLP From line 1567
+E 10023 qg
+E 10046 qug
+E 10069 qdg
+E 10092 qc
+E 10115 quc
+E 10138 qdc
+E 10161 q
+E 10188 f
+E 10236 surplus
+B 10244 Model Statistics    SOLVE zonal_seq3 Using NLP From line 1567
+B 10262 Solution Report     SOLVE zonal_seq3 Using NLP From line 1567
+B 10300 Equation Listing    SOLVE redispatch Using NLP From line 1645
+D 10303 tot_surplus
+D 10312 gcon_up
+D 10327 gcon_lo
+D 10342 ccon_up
+D 10357 ccon_lo
+D 10372 gen_redisp_down
+D 10379 gen_redisp_up
+D 10386 con_redisp_down
+D 10395 con_redisp_up
+D 10404 net_inj
+D 10419 sum_NI
+D 10424 ptdf_flow
+D 10445 fwd_lconstr
+D 10466 bwd_lconstr
+B 10488 Column Listing      SOLVE redispatch Using NLP From line 1645
+E 10491 qg
+E 10534 qug
+E 10579 qdg
+E 10624 qc
+E 10666 quc
+E 10711 qdc
+E 10756 q
+E 10834 f
+E 10891 surplus
+B 10899 Model Statistics    SOLVE redispatch Using NLP From line 1645
+B 10917 Solution Report     SOLVE redispatch Using NLP From line 1645
+B 10956 E x e c u t i o n

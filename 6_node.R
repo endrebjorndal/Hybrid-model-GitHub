@@ -1,0 +1,43 @@
+rm(list=ls())
+setwd("~/Documents/Veiledning PhD/Benjamin/Hybrid model march 2022")
+source("plot_network.R")
+
+#package for generating LaTeX tables
+library(xtable)
+
+#run gams model
+system('c:/gams/win64/30.3/gams run_models.gms')
+
+#plotting parameters
+par(mfrow=c(6,1))
+#which results file to use
+file="results.gdx"
+#show pflow or cflow?
+pflow=T
+#scale text size
+scale=1
+ 
+plot_network(case="unc",scale=scale,pflow=pflow,file=file)
+plot_network(case="nodal",scale=scale,pflow=pflow,file=file)
+ plot_network(case="zonal",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch",scale=scale,pflow=pflow,file=file)
+
+ plot_network(case="zonal_sim1",scale=scale,pflow=pflow,file=file)
+# plot_network(case="zonal_sim2",scale=scale,pflow=pflow,file=file)
+# plot_network(case="zonal_sim3",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch_sim1",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch_sim2",scale=scale,pflow=pflow,file=file)
+#plot_network(case="redispatch_sim3",scale=scale,pflow=pflow,file=file)
+
+ plot_network(case="zonal_seq1",scale=scale,pflow=pflow,file=file)
+# plot_network(case="zonal_seq2",scale=scale,pflow=pflow,file=file)
+# plot_network(case="zonal_seq3",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch_seq1",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch_seq2",scale=scale,pflow=pflow,file=file)
+# plot_network(case="redispatch_seq3",scale=scale,pflow=pflow,file=file)
+
+#show tables
+show_tables(file)
+
+
+

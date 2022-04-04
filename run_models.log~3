@@ -1,0 +1,537 @@
+--- Job run_models.gms Start 04/04/22 11:27:30 30.3.0 rc5da09e WEX-WEI x86 64bit/MS Windows
+--- GAMS Parameters defined
+    Input C:\Users\s1274\OneDrive - Norges Handelsh�yskole\Documents\Veiledning PhD\Benjamin\Hybrid model march 2022\run_models.gms
+    PageSize 0
+    ScrDir C:\Users\s1274\OneDrive - Norges Handelsh�yskole\Documents\Veiledning PhD\Benjamin\Hybrid model march 2022\225a\
+    SysDir C:\GAMS\win64\30.3\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 30.3.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S190221:1111AO-WIN
+          Norwegian School of Economics, Department of Business and DC14788
+--- Starting compilation
+--- run_models.gms(8) 2 Mb
+--- . model_formulations.gms(78) 3 Mb
+--- .. 6_node_extra_line.gms(123) 3 Mb
+--- . model_formulations.gms(346) 3 Mb
+--- run_models.gms(24) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(37) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(64) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(85) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(104) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(125) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(144) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(165) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(183) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(204) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(227) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(248) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(269) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(290) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(311) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(332) 3 Mb
+--- . store_results.gms(57) 3 Mb
+--- run_models.gms(335) 3 Mb
+--- Starting execution: elapsed 0:00:00.034
+--- run_models.gms(489) 4 Mb
+--- Generating NLP model unconstrained
+--- run_models.gms(491) 6 Mb
+---   51 rows  52 columns  206 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(491) 4 Mb
+--- Executing MINOS: elapsed 0:00:00.088
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.86 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        134426.2
+
+--- Restarting execution
+--- run_models.gms(491) 2 Mb
+--- Reading solution for model unconstrained
+--- Executing after solve: elapsed 0:00:00.359
+--- run_models.gms(559) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(561) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(561) 3 Mb
+--- Executing MINOS: elapsed 0:00:00.400
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        131276.4
+
+--- Restarting execution
+--- run_models.gms(561) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:00.628
+--- run_models.gms(643) 3 Mb
+--- Generating NLP model zonal
+--- run_models.gms(645) 5 Mb
+---   36 rows  46 columns  160 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(645) 3 Mb
+--- Executing MINOS: elapsed 0:00:00.669
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.84 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        134426.2
+
+--- Restarting execution
+--- run_models.gms(645) 2 Mb
+--- Reading solution for model zonal
+--- Executing after solve: elapsed 0:00:00.918
+--- run_models.gms(721) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(723) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(723) 3 Mb
+--- Executing MINOS: elapsed 0:00:00.944
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        114918.1
+
+--- Restarting execution
+--- run_models.gms(723) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:01.136
+--- run_models.gms(797) 3 Mb
+--- Generating NLP model zonal_sim1
+--- run_models.gms(799) 5 Mb
+---   48 rows  49 columns  205 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(799) 3 Mb
+--- Executing MINOS: elapsed 0:00:01.151
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.86 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        134047.8
+
+--- Restarting execution
+--- run_models.gms(799) 2 Mb
+--- Reading solution for model zonal_sim1
+--- Executing after solve: elapsed 0:00:01.379
+--- run_models.gms(875) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(877) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(877) 3 Mb
+--- Executing MINOS: elapsed 0:00:01.389
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        115656.3
+
+--- Restarting execution
+--- run_models.gms(877) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:01.610
+--- run_models.gms(952) 3 Mb
+--- Generating NLP model zonal_sim2
+--- run_models.gms(953) 5 Mb
+---   50 rows  49 columns  205 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(953) 3 Mb
+--- Executing MINOS: elapsed 0:00:01.631
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.86 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        134047.8
+
+--- Restarting execution
+--- run_models.gms(953) 2 Mb
+--- Reading solution for model zonal_sim2
+--- Executing after solve: elapsed 0:00:01.893
+--- run_models.gms(1029) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(1031) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1031) 3 Mb
+--- Executing MINOS: elapsed 0:00:01.922
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        115656.3
+
+--- Restarting execution
+--- run_models.gms(1031) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:02.131
+--- run_models.gms(1104) 3 Mb
+--- Generating NLP model zonal_sim3
+--- run_models.gms(1106) 5 Mb
+---   52 rows  49 columns  205 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1106) 3 Mb
+--- Executing MINOS: elapsed 0:00:02.147
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.86 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        134047.8
+
+--- Restarting execution
+--- run_models.gms(1106) 2 Mb
+--- Reading solution for model zonal_sim3
+--- Executing after solve: elapsed 0:00:02.347
+--- run_models.gms(1182) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(1184) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1184) 3 Mb
+--- Executing MINOS: elapsed 0:00:02.363
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        115656.3
+
+--- Restarting execution
+--- run_models.gms(1184) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:02.561
+--- run_models.gms(1262) 3 Mb
+--- Generating NLP model zonal_seq1
+--- run_models.gms(1264) 5 Mb
+---   28 rows  28 columns  115 non-zeroes
+---   92 nl-code  12 nl-non-zeroes
+--- run_models.gms(1264) 3 Mb
+--- Executing MINOS: elapsed 0:00:02.592
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.82 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        91360.59
+
+--- Restarting execution
+--- run_models.gms(1264) 2 Mb
+--- Reading solution for model zonal_seq1
+--- Executing after solve: elapsed 0:00:02.811
+--- run_models.gms(1340) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(1342) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1342) 3 Mb
+--- Executing MINOS: elapsed 0:00:02.867
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        77345.34
+
+--- Restarting execution
+--- run_models.gms(1342) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:03.102
+--- run_models.gms(1418) 3 Mb
+--- Generating NLP model zonal_seq2
+--- run_models.gms(1420) 5 Mb
+---   32 rows  28 columns  121 non-zeroes
+---   92 nl-code  12 nl-non-zeroes
+--- run_models.gms(1420) 3 Mb
+--- Executing MINOS: elapsed 0:00:03.134
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.82 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        90824.20
+
+--- Restarting execution
+--- run_models.gms(1420) 2 Mb
+--- Reading solution for model zonal_seq2
+--- Executing after solve: elapsed 0:00:03.354
+--- run_models.gms(1496) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(1498) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1498) 3 Mb
+--- Executing MINOS: elapsed 0:00:03.386
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        91338.71
+
+--- Restarting execution
+--- run_models.gms(1498) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:03.591
+--- run_models.gms(1574) 3 Mb
+--- Generating NLP model zonal_seq3
+--- run_models.gms(1576) 5 Mb
+---   34 rows  28 columns  121 non-zeroes
+---   92 nl-code  12 nl-non-zeroes
+--- run_models.gms(1576) 3 Mb
+--- Executing MINOS: elapsed 0:00:03.622
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.82 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        87293.29
+
+--- Restarting execution
+--- run_models.gms(1576) 2 Mb
+--- Reading solution for model zonal_seq3
+--- Executing after solve: elapsed 0:00:03.811
+--- run_models.gms(1652) 3 Mb
+--- Generating NLP model redispatch
+--- run_models.gms(1654) 5 Mb
+---   69 rows  52 columns  224 non-zeroes
+---   156 nl-code  21 nl-non-zeroes
+--- run_models.gms(1654) 3 Mb
+--- Executing MINOS: elapsed 0:00:03.851
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.87 Mb
+
+  Reading Rows...
+  Reading Columns...
+  Reading Instructions...
+
+
+ EXIT - Optimal Solution found, objective:        107751.0
+
+--- Restarting execution
+--- run_models.gms(1654) 2 Mb
+--- Reading solution for model redispatch
+--- Executing after solve: elapsed 0:00:04.051
+--- run_models.gms(1716) 3 Mb
+--- GDX File C:\Users\s1274\OneDrive - Norges Handelsh�yskole\Documents\Veiledning PhD\Benjamin\Hybrid model march 2022\results.gdx
+*** Status: Normal completion
+--- Job run_models.gms Stop 04/04/22 11:27:34 elapsed 0:00:04.112
